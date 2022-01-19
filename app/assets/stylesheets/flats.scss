@@ -1,0 +1,22 @@
+// Place all the styles related to the flats controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+.flats {
+  display: grid;
+  gap: 35px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.flat {
+  padding: 10px 15px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 15px rgba(0,0,0,0.2);
+  background-color: white;;
+}
+
+.flat-card-image {
+  height: 180px;
+  background-position: center;
+  background-size: cover;
+}
